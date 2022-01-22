@@ -1,29 +1,24 @@
----
-name: Xamarin.Forms - Todo
-description: 'This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database (get started)'
-page_type: sample
-languages:
-- csharp
-products:
-- xamarin
-extensions:
-    tags:
-    - getstarted
-urlFragment: todo
----
-# Todo
+# Xamarin To Do List
+## Integrantes 
+- Diaz Carlos
+- Vasconez John
+- Alexis Yepez
 
-This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database.
+### Aplicacion de ejemplo
 
-The app functionality is:
+Aplicacion de ejemplo usando una base de datos SQLite, para almacenar todas las tareas que se vayan introduciendo en la aplicacion por parte del usuario.
 
-- View a list of tasks.
-- Add a new item to the list of tasks.
-- Set a task's status to 'completed'.
+## Comenzando 🚀
 
-In all cases the tasks are stored in a local SQLite database.
+Integre SQLite.NET aplicaciones móviles siguiendo estos pasos:
 
-For more information about the sample see [Working with a Local Database](https://docs.microsoft.com/xamarin/xamarin-forms/data-cloud/data/databases).
+Instale el NuGet .
+Configure constantes.
+Cree una clase de acceso a la base de datos.
+Access data in Xamarin.Forms.
+Configuración avanzada.
+Instalación del paquete de NuGet SQLite
+Use el NuGet paquetes para buscar sqlite-net-pcl y agregar la versión más reciente al proyecto de código compartido.
 
-![Todo application screenshot](Screenshots/01All.png "Todo application screenshot")
+
 
